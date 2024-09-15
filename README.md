@@ -13,11 +13,11 @@
 
 ```bash
 #Копировать код
-git clone https://github.com/ваш_пользователь/кредитный-калькулятор-nuxt3.git
+git clone https://github.com/andreyskobliakov/credit-calculator.git
 Перейдите в каталог проекта:
 
 #Копировать код
-cd кредитный-калькулятор-nuxt3
+cd credit-calculator
 Установите зависимости:
 
 #Копировать код
