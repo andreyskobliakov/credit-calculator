@@ -1,75 +1,38 @@
-# Nuxt 3 Minimal Starter
+Кредитный калькулятор на Nuxt 3
+Этот проект представляет собой кредитный калькулятор, разработанный с использованием Nuxt 3 — современного фреймворка для создания Vue.js приложений. Калькулятор позволяет пользователям рассчитать ежемесячные платежи по кредиту на основе введенных параметров, таких как сумма кредита, срок и процентная ставка.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Основные особенности:
+Интуитивно понятный интерфейс: Простая и удобная форма ввода данных.
+Динамическое обновление результатов: Расчет ежемесячных платежей происходит в реальном времени при изменении параметров.
+Адаптивный дизайн: Приложение корректно отображается на всех устройствах благодаря использованию адаптивного дизайна.
+Демо
+Попробуйте калькулятор в действии: credit-calculator-three.vercel.app
 
-## Setup
+Установка
+Клонируйте репозиторий:
 
-Make sure to install the dependencies:
+bash
+Копировать код
+git clone https://github.com/andreyskobliakov/credit-calculator.git
+Перейдите в каталог проекта:
 
-```bash
-# npm
+bash
+Копировать код
+cd credit-calculator
+Установите зависимости:
+
+bash
+Копировать код
 npm install
+Запустите приложение в режиме разработки:
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+bash
+Копировать код
 npm run dev
+Откройте приложение в браузере по адресу http://localhost:3000.
 
-# pnpm
-pnpm run dev
+Использование
+Введите сумму кредита, срок и калькулятор автоматически рассчитает ежемесячные платежи.
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Лицензия
+Этот проект лицензирован под MIT License.
